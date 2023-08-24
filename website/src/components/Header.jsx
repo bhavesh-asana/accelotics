@@ -3,7 +3,7 @@ import Navbar from "./Navbar.jsx";
 export default function Header() {
     return (
         <div>
-            <header className={'px-20 py-20 flex justify-between'}>
+            <header className={'pt-5 px-20 flex justify-between'}>
                 <a href={'/'} className={'flex items-center gap-1'}>
                     {/*TODO: Add company logo*/}
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
@@ -11,9 +11,7 @@ export default function Header() {
                     </svg>
                     <span className={'font-bold text-xl text-primary'}>Accelotics</span>
                 </a>
-                <div>
-                    <Navbar/>
-                </div>
+                <Navbar/>
             </header>
         </div>
     )
