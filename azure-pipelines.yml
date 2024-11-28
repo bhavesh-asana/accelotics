@@ -18,4 +18,5 @@ steps:
 - script: |
     npm install
     npm run build
+  workingDirectory: $(System.DefaultWorkingDirectory)/inspira
   displayName: 'npm install and build'
